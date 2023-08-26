@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tutorial.MainPage">
+
+    <Grid BackgroundColor="AliceBlue" RowDefinitions="*,*,*,*" ColumnDefinitions="*,*">
+        <Button Text="1" Grid.Row="0"
+                Clicked="btn1_Clicked"
+                Grid.Column="0" x:Name="btn1"/>
+                 
+        <Button Text="1" Grid.Row="0" Grid.Column="0"/>
+        <Button Text="9" Grid.Row="0" Grid.Column="1"/>
+        <Button Text="8" Grid.Row="1" Grid.Column="0"/>
+        <Button Text="7" Grid.Row="2" Grid.Column="0"/>
+        <Button Text="10" Grid.Row="1" Grid.Column="1"
+                x:Name="btn10"/>
+        <Button Text="5" Grid.Row="3" Grid.Column="0"/>
+        <Button Text="6" Grid.Row="3" Grid.Column="1"/>
+    </Grid>
+    
+    <!--<Grid
+        RowDefinitions="*,*,*,*"
+        ColumnDefinitions="*,*,*,*">
+
+        <Label
+            Grid.Row="0"
+            Grid.Column="3"
+            Text="20"
+            />
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="10"
+            />
+        <Label
+            Grid.Row="1"
+            Grid.Column="2"
+            Text="17"
+            />
+        <Label
+            Grid.Row="2"
+            Grid.Column="1"
+            Text="13"
+            />
+        <Label
+            Grid.Row="2"
+            Grid.Column="3"
+            Text="55"
+            />
+        <Label
+            Grid.Row="3"
+            Grid.Column="0"
+            Text="25"
+            />
+
+    </Grid>-->
+
+</ContentPage>
